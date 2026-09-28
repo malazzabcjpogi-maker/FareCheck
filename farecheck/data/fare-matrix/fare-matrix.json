@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "jurisdiction": "Marikina City",
+    "verified": true,
+    "dataLabel": "Official Fare Matrix",
+    "statusLabel": "Official matrix verified",
+    "source": "City of Marikina Ordinance No. 011, Series of 2013 (Transportation Systems and Regulations) \u2014 official posted tricycle fare matrix (\"Taripa ng Pasahe ng mga Traysikel\")",
+    "effectiveDate": "Ordinance No. 011, Series of 2013",
+    "lastVerified": "2026-09-29",
+    "lastSourceCheck": "2026-09-29",
+    "note": "Confirmed from a photograph of the official posted fare matrix for Ordinance No. 011, Series of 2013, provided by the app's user on 2026-09-29. This matches the 'Tricycle Code of Marikina City' fare matrix that earlier web searches could not locate online, so it is treated as the verified source. The ordinance also sets an automatic fuel-price-linked adjustment (see fuelAdjustment below) and a separate 'special trip' rate hailed directly from a terminal (see specialTrip below); neither is applied by this calculator, which assumes a regular per-passenger trip at the base rate shown. If fuel prices have since shifted the fare under that clause, or a newer ordinance supersedes No. 011 s.2013, re-verify with the City Government of Marikina before treating this as current.",
+    "childCategoryDiscrepancy": "The posted matrix's English column labels this 'Children aged four (4) to five (5) years old \u2014 \u20b13.00' while its Filipino column reads 'Bayad para sa mga batang apat na taong gulang pababa \u2014 \u20b13.00' (children four years old and below). The amount is the same in both; the exact age cutoff differs slightly between the two columns of the source itself.",
+    "specialTrip": {"label":"Special trip (hailed directly from a terminal, 1\u20132 passengers)","firstKm":20,"note":"Not used by this calculator, which covers regular per-passenger trips only."},
+    "fuelAdjustment": {"note":"Per the ordinance, if fuel prices drop \u20b110 or more, the first-km fare automatically rolls back to \u20b19 (regular) / \u20b118 (special trip). If fuel prices rise \u20b19 or more, it automatically rises to \u20b110 (regular) / \u20b120 (special trip). This app always shows the \u20b19 first-km base rate from the posted matrix and does not track live fuel prices."},
+    "penalties": {"nonDisplayOfFareMatrix":500,"overchargingOfFare":1000},
+    "sourcesReviewed": [
+      {
+        "name": "Marikina City Full Disclosure Policy Portal \u2013 City Ordinances and Resolutions (2000\u20132026)",
+        "url": "https://fdpp.marikina.gov.ph/city-ordinance",
+        "result": "Listing reviewed on 2026-09-28. No tricycle fare ordinance or fare matrix was found in it."
+      },
+      {
+        "name": "Ordinance No. 84, Series of 2015 \u2013 2015 Traffic Management Code of Marikina City",
+        "url": "https://marikina.gov.ph/ordinance/ORDINANCE%20NO.%2084%20SERIES%20OF%202015.pdf",
+        "result": "Sec. 82 says tricycle rules are set by the Tricycle Code of Marikina City. Sec. 127(g) requires a fare matrix to be displayed in each PUV. Sec. 132(i) bars overcharging. It contains no tricycle fare values."
+      },
+      {
+        "name": "Ordinance No. 011, Series of 2013 \u2013 official posted tricycle fare matrix",
+        "url": "",
+        "result": "Provided by the app's user as a photograph of the matrix posted per the display requirement above. Used as the verified source for the rates below."
+      }
+    ]
+  },
+  "rules": {
+    "base": 9,
+    "baseKm": 1,
+    "perKm": 1,
+    "roadFactor": 1.3,
+    "distanceRule": "Distance is estimated as the straight-line distance between two places multiplied by a road factor. This is an estimate, not a surveyed route distance."
+  },
+  "passengerTypes": {
+    "regular": { "label": "Regular", "discount": 0 },
+    "elem": { "label": "Elementary Student", "discount": 2 },
+    "student": { "label": "High School / College Student", "discount": 1 },
+    "senior": { "label": "Senior Citizen", "discount": 2 },
+    "pwd": { "label": "PWD", "discount": 2 },
+    "child": { "label": "Child (young child flat fare)", "flatFare": 3 }
+  },
+  "discountNote": "Discounts are flat peso amounts taken off the regular fare, as posted on the official matrix: \u20b12 off for senior citizens, PWDs and elementary students; \u20b11 off for high school and college students. Children in the posted matrix's youngest bracket (see childCategoryDiscrepancy above) pay a flat \u20b13 regardless of distance."
+}

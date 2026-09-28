@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "label": "Prototype Station Data",
+    "source": "Prototype station list with approximate coordinates. Not officially verified.",
+    "verified": false,
+    "lastVerified": null
+  },
+  "stations": [
+    {"id":1,"name":"City Hall Tricycle Station","place":"Marikina City Hall","lat":14.6500,"lng":121.1022,"area":"City Hall, Sports Center, Sto. Niño","routes":["Sports Center","Concepcion Uno","Sto. Niño"]},
+    {"id":2,"name":"SM Marikina Station","place":"SM City Marikina","lat":14.6256,"lng":121.0990,"area":"SM Marikina, Sto. Niño, Riverbanks","routes":["Riverbanks Center","Sto. Niño","Barangka"]},
+    {"id":3,"name":"Riverbanks Station","place":"Riverbanks Center","lat":14.6327,"lng":121.0860,"area":"Riverbanks, Barangka","routes":["Barangka","SM City Marikina","Sto. Niño"]},
+    {"id":4,"name":"Concepcion Dos Station","place":"Concepcion Dos main road","lat":14.6526,"lng":121.1172,"area":"Concepcion Dos, Fortune, Nangka","routes":["Fortune","Nangka","Concepcion Uno"]},
+    {"id":5,"name":"Malanday Station","place":"Malanday market area","lat":14.6596,"lng":121.1046,"area":"Malanday, Tumana, Nangka","routes":["Tumana","Nangka","Marikina City Hall"]},
+    {"id":6,"name":"Tumana Station","place":"Tumana main road","lat":14.6556,"lng":121.0966,"area":"Tumana, Malanday, City Hall","routes":["Malanday","Marikina City Hall","Concepcion Uno"]},
+    {"id":7,"name":"Barangka Station","place":"Barangka terminal","lat":14.6274,"lng":121.0876,"area":"Barangka, Riverbanks","routes":["Riverbanks Center","SM City Marikina"]}
+  ]
+}

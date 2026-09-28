@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "label": "Prototype Route Data",
+    "source": "Prototype places with approximate coordinates. Not surveyed and not officially verified.",
+    "verified": false,
+    "lastVerified": null
+  },
+  "locations": [
+    {"id":"cityhall","name":"Marikina City Hall","lat":14.6507,"lng":121.1029},
+    {"id":"stonino","name":"Sto. Niño","lat":14.6371,"lng":121.0937},
+    {"id":"riverbanks","name":"Riverbanks Center","lat":14.6323,"lng":121.0853},
+    {"id":"sm","name":"SM City Marikina","lat":14.6250,"lng":121.0994},
+    {"id":"conc1","name":"Concepcion Uno","lat":14.6497,"lng":121.1070},
+    {"id":"conc2","name":"Concepcion Dos","lat":14.6530,"lng":121.1180},
+    {"id":"sports","name":"Marikina Sports Center","lat":14.6431,"lng":121.1010},
+    {"id":"malanday","name":"Malanday","lat":14.6600,"lng":121.1040},
+    {"id":"tumana","name":"Tumana","lat":14.6560,"lng":121.0960},
+    {"id":"barangka","name":"Barangka","lat":14.6270,"lng":121.0870},
+    {"id":"fortune","name":"Fortune","lat":14.6700,"lng":121.1230},
+    {"id":"nangka","name":"Nangka","lat":14.6720,"lng":121.1140}
+  ]
+}
